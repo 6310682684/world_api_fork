@@ -42,3 +42,4 @@ async def read_city(name: str) -> dict:
         if row["Name"].lower() == name.lower():
             return {"result": row}
     return {"result": {}}
+
